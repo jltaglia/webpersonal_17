@@ -9,6 +9,8 @@ PREPARADO PARA TRABAJAR CON POSTGRESQL
 Revisar linea 93 de 'settings.py' para adecuarlo al entorno particular
 de cada uno:
 
+
+```python
 DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.postgresql',
@@ -18,3 +20,4 @@ DATABASES = {
             'HOST': '127.0.0.1',
             'PORT': '5432',
         }
+```
