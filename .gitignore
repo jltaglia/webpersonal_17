@@ -1,3 +1,6 @@
 varios.txt
 dependencias.txt
 test.py
+
+/webpersonal_17/__pycache__/
+*.pyc
