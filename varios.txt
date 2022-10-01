@@ -1,0 +1,13 @@
+PARA ACTIVAR EL VENV
+
+Desde PowerShell
+source 'C:\Users\Public\entornos\django_env\Scripts\activate'
+
+Desde BASH
+source 'C:\Users\Public\entornos\django_env\Scripts\activate'
+
+DATOS VARIOS DE DJANGO/POSTGRES
+
+- SUPERUSER
+USR = jltag
+PSW = postgres
