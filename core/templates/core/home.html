@@ -2,8 +2,12 @@
 {% block title %}
     - HOME
 {% endblock title %}
+{% load static %}
+{% block background %}{% static 'core/img/home-bg.jpg' %}{% endblock background %}
+{% block header %}
+    <h1>Carlos Arroyo Díaz</h1>
+    <span class="subheading">Ingeniero Informático</span>
+{% endblock header%}
 {% block content %}
-    <div class="container">
-        <h2>Bienvenidos a mi web!</h2>
-    </div>    
+
 {% endblock content %}
