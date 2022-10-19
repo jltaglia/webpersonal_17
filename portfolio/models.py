@@ -1,4 +1,5 @@
 from email.mime import image
+from os import link
 from tabnanny import verbose
 from django.db import models
 
@@ -8,6 +9,7 @@ class Project(models.Model):
     title       = models.CharField(max_length=100, verbose_name = 'Titulo')
     description = models.TextField(verbose_name = 'descripcion')
     image       = models.ImageField(upload_to='projects', verbose_name = 'imagen')
+    link        = models.URLField(verbose_name = 'Direccion web', null=True, blank=True)
     created     = models.DateTimeField(auto_now_add= True, verbose_name = 'fecha creado')
     updated     = models.DateTimeField(auto_now= True, verbose_name = 'fecha modificado')
     
